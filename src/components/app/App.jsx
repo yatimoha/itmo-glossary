@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/itmo-glossary/graph" element={<Graph/>}/>
-        <Route path="/itmo-glossary/" element={<Glossary/>}/>
+        <Route path="/graph" element={<Graph/>}/>
+        <Route path="/" element={<Glossary/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </>
