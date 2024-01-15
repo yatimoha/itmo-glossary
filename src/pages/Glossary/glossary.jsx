@@ -11,7 +11,7 @@ const Glossary = () => {
         <Grid container spacing={2} sx={{p: 3}}>
           {
             terms.map(({description, title}) => (
-              <Grid key={Math.random()} item xs={6} md={4} lg={3} sx={{display: 'flex',}}>
+              <Grid key={Math.random()} item xs={12} sm={6} md={4} lg={3} sx={{display: 'flex',}}>
                 <Ticket  description={description} title={title}></Ticket>
               </Grid>
             ))
