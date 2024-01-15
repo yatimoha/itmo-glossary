@@ -19,7 +19,7 @@ const Bar = ({title}) => {
       alignItems={'center'}
       sx={containerStyles}
     >
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'left', }}>
+      <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'left', }}>
         {title}
       </Typography>
       <Box mr={2}>
